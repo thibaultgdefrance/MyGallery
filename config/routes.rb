@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+
+    root 'galleries#index'
+
   namespace :admin do
     resources :galleries
   end
